@@ -8,6 +8,8 @@ apt-get install p7zip-full espeak espeak-data mplayer
 
 [ -d /opt/stardict ] || cp -pfr ../stardict /opt
 
+ln -s /opt/stardict/stardict.sh /opt/stardict/s
+
 grep STARDICT_HOME ~/.bashrc >/dev/null || cat >>~/.bashrc <<_EOF_
 
 export STARDICT_HOME=/opt/stardict
