@@ -7,8 +7,17 @@ apt-get install p7zip-full espeak espeak-data mplayer
 
 [ -f stardict ] || gcc -o stardict.exe stardict.c
 
-[ -d /opt/stardict ] || cp -pfr ../stardict /opt
+if [ -d ../stardict-master ]
+then
+   [ -d /opt/stardict ] || cp -pfr ../stardict-master /opt/stardict
+fi
 
+if [ -d ../stardict ]
+then
+   [ -d /opt/stardict ] || cp -pfr ../stardict /opt/
+fi
+
+chmod +x stardict.sh
 ln -s /opt/stardict/stardict.sh /opt/stardict/s
 
 grep STARDICT_HOME ~/.bashrc >/dev/null || cat >>~/.bashrc <<_EOF_
@@ -22,4 +31,3 @@ _EOF_
 echo install finished
 
 echo you should run command "source ~/.bashrc", and then you can look for a word.
-
