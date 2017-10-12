@@ -5,7 +5,7 @@
 
 2)使用
 <b>a) 只查词，不发音</b>
-<span style="color:green;">s love </span>
+<font color="green">s love </font>
 [Dict: cdict-gb.dict]
 
 [lʌv;lʌv< love >]
