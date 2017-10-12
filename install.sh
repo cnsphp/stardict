@@ -2,7 +2,12 @@
 # apt-get install p7zip-full
 # 7z x stardict.7z 
 
+# ubuntu
 apt-get install p7zip-full gcc espeak espeak-data mplayer
+
+# CentOS
+# 由于CentOS使用yum install安装时很多软件默认没有，而且依赖做的很差，所以自行安装以上软件吧，如果不发音可以不安装espeak espeak-data mplayer
+
 7z x dicts.7z
 
 [ -f stardict ] || gcc -o stardict.exe stardict.c
