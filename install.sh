@@ -3,6 +3,7 @@
 # 7z x stardict.7z 
 
 apt-get install p7zip-full espeak espeak-data mplayer
+7z x dicts.7z
 
 [ -f stardict ] || gcc -o stardict.exe stardict.c
 
