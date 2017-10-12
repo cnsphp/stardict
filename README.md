@@ -5,7 +5,7 @@
 
 2)使用
 <b>a) 只查词，不发音</b>
-<span style="color:green">s love </span>
+<span style="color:green;">s love </span>
 [Dict: cdict-gb.dict]
 
 [lʌv;lʌv< love >]
@@ -18,7 +18,7 @@
 ..
 
 <b>b)查词时发音</b>
-<span style="color:green">s -s love<span>
+<span style="color:green;">s -s love<span>
 
 <b>c)只发音不显示词义</b>
-<span style="color:green">s -v love<span>
+<span style="color:green;">s -v love<span>
