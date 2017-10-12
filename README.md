@@ -4,8 +4,8 @@
 ./install.sh
 
 2)使用
-a) 只查词，不发音
-s love 
+<b>a) 只查词，不发音</b>
+<span style="color:green">s love </span>
 [Dict: cdict-gb.dict]
 
 [lʌv;lʌv< love >]
@@ -18,7 +18,7 @@ s love
 ..
 
 <b>b)查词时发音</b>
-s -s love
+<span style="color:green">s -s love<span>
 
-c)只发音不显示词义
-s -v love
+<b>c)只发音不显示词义</b>
+<span style="color:green">s -v love<span>
