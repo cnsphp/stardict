@@ -1,9 +1,12 @@
 <pre>
+1)下载 
+  https://github.com/cnsphp/stardict/archive/master.zip
+
 # stardict
-1)安装
+2)安装
 ./install.sh
 
-2)使用
+3)使用
 <b>a) 只查词，不发音</b>
 <b>s love </b>
 [Dict: cdict-gb.dict]
