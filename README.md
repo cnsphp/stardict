@@ -1,3 +1,4 @@
+<pre>
 # stardict
 1)安装
 ./install.sh
